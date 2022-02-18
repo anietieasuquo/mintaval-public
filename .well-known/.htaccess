@@ -1,0 +1,8 @@
+# REWRITE
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+</IfModule>
+
+<FilesMatch "^[^.]+$">
+  ForceType application/json
+</FilesMatch>
